@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+
+body, html {background: #494949;}
+
+body {
+	margin:0;
+	padding: 300px 0 0 0;
+	border:0px;
+	background: url("../images/background.jpg") no-repeat top left;
+	width: 810px;
+	min-height: 650px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #aaa;
+	font-family: 'Arvo', 'Tahoma', serif;
+	font-weight: 400;
+	overflow: hidden; 
+}
+
+
+
+.buttonContainer {text-align:center; clear:both; margin: 20px 0 40px 0; padding-top: 25px;}
+
+button {
+	color: #000;
+	background: #e9eb36; 
+	border: none; 
+	font-size: 10px; 
+	padding: 5px 10px; ;
+
+	box-shadow: 1px 1px 15px #333; 
+	-webkit-box-shadow: 1px 1px 15px #333;
+	-moz-box-shadow: 1px 1px 15px #333;
+
+	display: none; 
+}
+
+button:hover {cursor: pointer;}
+
+a, a:visited {color: #411e02;}
+a:hover {text-decoration: underline;}
+
+
+.hashtags {margin: 0 0 20px 25px;}
+
+
+.hashtags ul {list-style: none;	margin: 0; padding: 0; text-align: left;}
+.hashtags ul li {display: inline;}
+.hashtags ul li a {
+	font-size: 12px; 
+	color: #fff; 
+	background: #494949; 
+	text-decoration: none; 
+	padding: 5px 10px; 
+	display: inline-block; 
+
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+
+	text-shadow: #999 0.1em 0.1em 0.2em
+
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+
+}
+
+.hashtags ul li a:hover {background: #666;}
+.hashtags ul li a.active {background: #e9eb36; color: #000;}
+
+
+#instagram {width: 780px; margin: 0 auto;}
+
+.instagram-placeholder {
+	float: left; 
+	padding: 10px; 
+	margin: 10px 10px 10px 10px;
+	background: #fff; 
+	box-shadow: 1px 1px 15px #333; 
+	-webkit-box-shadow: 1px 1px 15px #333;
+	-moz-box-shadow: 1px 1px 15px #333; 	
+	
+	}
+
+
+.instagram-placeholder img {width: 220px; height: 220px;}
+
+.instagram-placeholder ul {list-style: none; margin: 0; padding: 0;}
+.instagram-placeholder ul li {display: inline; color: #aaa; }
+
+.instagram-placeholder ul li.likes {float: left; padding-top: 5px;}
+.instagram-placeholder ul li.likes span {font-size:  18px;}
+
+.instagram-placeholder ul li.right {float: right; padding-top: 3px;}
+.instagram-placeholder ul li.right a {font-size: 11px; color: #aaa; text-decoration: underline;}
