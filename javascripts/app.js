@@ -47,11 +47,6 @@ function getInstagramFeed (hashtag, show) {
 				social_tools: false,
 				deeplinking: false, 
 				changepicturecallback: function(){
-					/*	FB.Canvas.getPageInfo(
-						function(info) {
-							$(".pp_pic_holder").hide().css('top', Math.max(parseInt(info.scrollTop) - parseInt(info.offsetTop), 0) + 80).show();
-						}
-					);*/
 				}
 			});
 
@@ -95,8 +90,6 @@ function getInstagramFeed (hashtag, show) {
 
    
     
-/*
-
 window.fbAsyncInit = function() {
 	FB.init({
 		appId: '455142574547058',
@@ -105,11 +98,6 @@ window.fbAsyncInit = function() {
 		xfbml: true
 	});
  
-	//this resizes the the i-frame
-	//on an interval of 100ms
-	// FB.Canvas.setAutoResize(100);
-	//	FB.Canvas.setSize({ width: 810, height: 650 });
-
 };
 (function() {
 	var e = document.createElement('script');
@@ -124,5 +112,5 @@ window.onload = function() {
 	FB.Canvas.setAutoGrow(100); //Run the timer every 100 milliseconds, you can increase this if you want to save CPU cycles
 }
 
-*/
+
 
